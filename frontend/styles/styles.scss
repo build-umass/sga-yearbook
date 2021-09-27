@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Source+Sans+Pro:300,400,700&display=swap");
+
+$primary-font: "Minion Pro", sans-serif;
+$secondary-font: "Sans Serif", sans-serif;
+$primary-color:  #881c1c;
+$primary-color-darker: #a30000;
+$base-color: #000000;
+$red-gradient: linear-gradient(to right, #a30000, #f44708);
+$red-gradient-transparent: #881c1c;
+
+.app{
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-brand,
+.nav-link {
+    font-family: $primary-font;
+    color: white !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    margin-left: 8px;
+    margin-right: 8px;
+&:hover {
+     text-decoration: underline;
+ }
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.details .big-img{
+    max-width: 500px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+}
+.big-img img{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+}
+
+.details .box{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+}
+.box .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.box .row h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.box .row span{
+    color: crimson;
+}
+
+.box .colors button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.box p{
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.thumb{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.thumb img{
+    width: 90px;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+.thumb img.active{
+    opacity: 1;
+    border: 1px solid lightseagreen;
+}
+.box .cart{
+    background: #333;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin-top: 15px;
+}
+
+.about-bg {
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+.bg-gradient {
+    background: $red-gradient;
+}
+
+.bg-gradient-transparent {
+    background: $red-gradient-transparent;
+}
+
+
+@media (max-width: 500px){
+    .thumb{
+        height: 50px;
+    }
+    .thumb img{
+        width: 50px;
+    }
+}
