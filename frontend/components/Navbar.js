@@ -4,16 +4,19 @@ import Head from 'next/head'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
+import Image from 'next/image'
 
 export default function Index() {
     return (
         <div>
             <Head>
-                <title>BUILD UMass</title>
+                <title>The Index</title>
             </Head>
             <Navbar bg="transparent" expand="lg">
                 <Container>
-                    <Navbar.Brand href="/">SGA Yearbook</Navbar.Brand>
+                    <Navbar.Brand href="/">
+                        The Index
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse
                         id="basic-navbar-nav custom-toggler"
