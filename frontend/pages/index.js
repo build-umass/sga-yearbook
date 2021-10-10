@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button';
 import Navbar from '../components/Navbar';
 import Colors from '../components/Colors'
 import DetailsThumb from '../components/DetailsThumb';
+import Footer from '../components/Footer';
 
 export default function Index () {
 
@@ -53,6 +54,7 @@ export default function Index () {
                     </div>
                 ))
             }
+        <Footer />
         </div>
     );
 }
