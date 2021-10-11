@@ -32,11 +32,6 @@ export default function Index () {
 
     return (
         <div style={{  position: 'relative', width: '100vw', height: '66.66vw'}}>
-            <Image
-                src="/umass.png"
-                layout="fill"
-                objectFit="cover"
-            />
             <div className="about-bg">
                 <div className="bg-gradient-transparent">
                     <Navbar />
