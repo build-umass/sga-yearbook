@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button';
 import Navbar from '../components/Navbar';
 import Colors from '../components/Colors'
 import Image from "next/image";
+import Footer from '../components/Footer';
 
 // import background from "/umass.png";
 
@@ -57,6 +58,7 @@ export default function Index () {
                     </div>
                 ))
             }
+        <Footer />
         </div>
     );
 }
