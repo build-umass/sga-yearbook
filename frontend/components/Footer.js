@@ -20,12 +20,12 @@ export default function Footer() {
             <div>
               <Row>
                 <Col>
-                  <h6 className="pg-heading">SGA UMass</h6>
+                  <h6 className="pg-heading">The Index</h6>
                 </Col>
               </Row>
               <Row className="margin-bottom2">
                 <Col>
-                  <p className="copyright">© SGA 2021 UMass</p>
+                  <p className="copyright">© The Index 2021</p>
                 </Col>
               </Row>
               <Row>
@@ -66,26 +66,6 @@ export default function Footer() {
               </Row>
             </div>
           </Col>
-          {/* <Col md={3} sm={12} className="footer-col">
-            <div>
-              <Link href="/placeholder1">
-                <p className="footer-heading">About</p>
-              </Link>
-              <Link href="/placeholder#one">Mission</Link>
-              <Link href="/placeholder#two">Story</Link>
-              <Link href="/placeholder#three">Team</Link>
-            </div>
-          </Col>
-          <Col md={3} sm={12} className="footer-col">
-            <div>
-              <Link href="/services">
-                <p className="footer-heading">Services</p>
-              </Link>
-              <Link href="/placeholder#one">Mission</Link>
-              <Link href="/placeholder#two">Story</Link>
-              <Link href="/placeholder#three">Team</Link>
-            </div>
-          </Col> */}
         </Row>
       </Container>
     </div>
