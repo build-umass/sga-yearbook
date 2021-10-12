@@ -142,7 +142,31 @@ $red-gradient-transparent: #881c1c;
 	padding: 0px;
 }
 
+.page-container {
+    position: relative;
+    color: white;
+}
 
+.container::after {
+    content: "";
+    opacity: 0.8;
+    background: rgba(63, 40, 25, 0.842) url("../assets/umass_fall.jpeg") no-repeat fixed top;
+    background-blend-mode: overlay;
+    /* also change the blend mode to what suits you, from darken, to other 
+    many options as you deem fit*/
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 13em;
+}
 
 .footer {
 	background: $primary-color;
@@ -166,6 +190,7 @@ $red-gradient-transparent: #881c1c;
     }
     
 }
+
 
 @media (max-width: 414px) {
 	.footer-col {

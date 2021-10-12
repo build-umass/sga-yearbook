@@ -24,12 +24,13 @@ style={{  position: 'relative', width: '100vw', height: '66.66vw'}}
  */
 export default function Index () {
     return (
-        <div>
-            <div className="about-bg">
-                <div className="bg-gradient-transparent">
-                    <Navbar />
+        <div className="page-container">
+            <div className="content-wrap">
+                <div className="about-bg">
+                    <div className="bg-gradient-transparent">
+                        <Navbar />
+                    </div>
                 </div>
-            </div>
                 <div className="details">
                     <div className="big-img">
                         <Image src= '/index2005.jpg' alt="site logo" width={500} height={500} />
@@ -45,6 +46,7 @@ export default function Index () {
                         <Button type="submit" href="https://adamlechowicz.github.io/redir" className="button">Add to Cart</Button>
                     </div>
                 </div>
+            </div>
             <Footer />
         </div>
     );
