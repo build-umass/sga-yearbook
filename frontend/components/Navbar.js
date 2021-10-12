@@ -15,7 +15,7 @@ export default function Index() {
             <Navbar bg="transparent" expand="lg">
                 <Container>
                     <Navbar.Brand href="/">
-                        The Index
+                        <Image src='/indexLogoInline.png' alt="site logo" width={400} height={50} />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse
