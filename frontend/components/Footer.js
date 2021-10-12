@@ -47,7 +47,7 @@ export default function Footer() {
                         <FontAwesomeIcon icon={faTwitter} className="icon" />
                     </a>
                     <a
-                        href="https://www.instagram.com/umasssga/"
+                        href="https://adamlechowicz.github.io/redir"
                         target="_blank"
                         className="white-link"
                         rel="noreferrer"
