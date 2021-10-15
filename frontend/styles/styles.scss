@@ -155,6 +155,12 @@ $red-gradient-transparent: #881c1c;
  // might be useless
 .footer-wrapper {
     position: absolute;
+    z-index: -1;
+    height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 10em;
 }
 
 .footer {

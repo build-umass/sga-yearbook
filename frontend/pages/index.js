@@ -1,22 +1,10 @@
 // Imports
 import React from 'react';
-
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Link from 'react-bootstrap/NavLink';
-import Button from 'react-bootstrap/Button';
-
 import Navbar from '../components/Navbar';
-import Colors from '../components/Colors'
-import Image from "next/image";
 import Footer from '../components/Footer';
+import Button from 'react-bootstrap/Button';
+import Image from "next/image";
 
-// import background from "/umass.png";
-// <div style={{ backgroundImage: `url(/umass.png)` }}>
-/*
-style={{  position: 'relative', width: '100vw', height: '66.66vw'}}
- */
 /**
  *
  * @returns {JSX.Element}
