@@ -62,7 +62,8 @@ $red-gradient-transparent: #881c1c;
 .details .box{
     max-width: 500px;
     min-width: 290px;
-    margin: 25px;
+    height: 66.5vh;
+    margin: 25px; //25px
 }
 .box .row{
     display: flex;
@@ -142,35 +143,24 @@ $red-gradient-transparent: #881c1c;
 	padding: 0px;
 }
 
-.page-container {
+.bg-image {
+    background: rgba(85, 58, 41, 0.842) url("../assets/umass_fall.jpeg") no-repeat fixed top;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
     position: relative;
     color: white;
 }
 
-.container::after {
-    content: "";
-    opacity: 0.8;
-    background: rgba(63, 40, 25, 0.842) url("../assets/umass_fall.jpeg") no-repeat fixed top;
-    background-blend-mode: overlay;
-    /* also change the blend mode to what suits you, from darken, to other 
-    many options as you deem fit*/
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+ // might be useless
+.footer-wrapper {
     position: absolute;
-    z-index: -1;
-    height: 100vh;
-}
-
-.content-wrap {
-    padding-bottom: 13em;
 }
 
 .footer {
-	background: $primary-color;
+	background-color: $primary-color;
 	color: white;
+    position: relative;
 
 	.nav-link {
 		font-size: 14px;
@@ -188,8 +178,8 @@ $red-gradient-transparent: #881c1c;
         margin-bottom: 8px;
         }
     }
-    
 }
+
 
 
 @media (max-width: 414px) {
@@ -226,7 +216,6 @@ $red-gradient-transparent: #881c1c;
 	color: white;
 }
 
-.margin2 {
-	margin-top: 7em;
-	margin-bottom: 8em;
+.margin-bottom2 {
+	margin-bottom: 5px;
 }
