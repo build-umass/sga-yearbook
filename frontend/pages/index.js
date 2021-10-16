@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Button from 'react-bootstrap/Button';
 import Image from "next/image";
+import logo from '../assets/2002Cover.png'
 
 /**
  *
@@ -21,7 +22,7 @@ export default function Index () {
                 </div>
                 <div className="details">
                     <div className="big-img">
-                        <Image src= '/index2005.jpg' alt="site logo" width={500} height={500} />
+                        <Image src={logo} alt="site logo" className="book-cover-img" />
                     </div>
                     <div className="box">
                         <div className="row">
