@@ -22,7 +22,7 @@ export default function Index () {
                 </div>
                 <div className="details">
                     <div className="big-img">
-                        <Image src={logo} alt="site logo" className="book-cover-img" />
+                        <Image src={logo} alt="site logo" />
                     </div>
                     <div className="box">
                         <div className="row">
