@@ -3,8 +3,10 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Button from 'react-bootstrap/Button';
-import Image from "next/image";
-import logo from '../assets/2002Cover.png'
+// import Img from 'react-optimized-image';
+import Image from 'react-bootstrap/Image'
+import backgroundImg from '../images/umass_fall.jpeg'
+import logo from '../images/2002Cover.jpg'
 
 /**
  *
@@ -13,7 +15,7 @@ import logo from '../assets/2002Cover.png'
  */
 export default function Index () {
     return (
-        <div className="bg-image">
+        <div className="bg-image" style={{ background: `rgba(68, 47, 32, 0.842) url(${backgroundImg}) no-repeat fixed top` }}>
             <div className>
                 <div className="about-bg">
                     <div className="bg-gradient-transparent">
@@ -22,7 +24,7 @@ export default function Index () {
                 </div>
                 <div className="details">
                     <div className="big-img">
-                        <Image src={logo} alt="site logo" />
+                        <Image src={logo} alt="site logo"  />
                     </div>
                     <div className="box">
                         <div className="row">

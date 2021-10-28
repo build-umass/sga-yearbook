@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start -p $PORT"
   },
   "dependencies": {
@@ -12,10 +12,19 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "bootstrap": "^5.1.1",
+    "imagemin-mozjpeg": "^9.0.0",
     "next": "^11.1.2",
+    "next-compose": "0.0.2",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^3.0.0-canary.10",
+    "plugins": "^0.4.2",
+    "postcss": "^8.3.11",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
-    "sass": "^1.42.1"
+    "responsive-loader": "^2.0.0",
+    "sass": "^1.42.1",
+    "sharp": "^0.29.2",
+    "webp-loader": "^0.6.0"
   }
 }

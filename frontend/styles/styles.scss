@@ -150,7 +150,7 @@ $red-gradient-transparent: #881c1c;
 }
 
 .bg-image {
-    background: rgba(68, 47, 32, 0.842) url("../assets/umass_fall.jpeg") no-repeat fixed top;
+    /*background: rgba(68, 47, 32, 0.842) url("../images/umass_fall.jpeg") no-repeat fixed top;*/
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -160,13 +160,12 @@ $red-gradient-transparent: #881c1c;
 
  // might be useless
 .footer-wrapper {
-    position: absolute;
+    position: relative;
     z-index: -1;
-    height: 100vh;
 }
 
 .content-wrap {
-    padding-bottom: 10em;
+    /*padding-bottom: 10em;*/
 }
 
 .footer {
@@ -200,7 +199,7 @@ $red-gradient-transparent: #881c1c;
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		margin-bottom: 10px;
+		/*margin-bottom: 10px;*/
 	}
 }
 
