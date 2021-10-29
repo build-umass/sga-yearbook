@@ -4,9 +4,8 @@ import Head from 'next/head'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image'
-import brand from '../images/indexLogoInline.png';
-// import Img from 'react-optimized-image';
+import Image from 'next/image';
+import brand from '../assets/indexLogoInline.png';
 
 export default function Index() {
     return (

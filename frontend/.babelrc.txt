@@ -2,3 +2,7 @@
   "presets": ["next/babel"],
   "plugins": ["react-optimized-image/plugin"]
 }
+
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

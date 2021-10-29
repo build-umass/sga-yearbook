@@ -3,10 +3,9 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Button from 'react-bootstrap/Button';
-// import Img from 'react-optimized-image';
-import Image from 'react-bootstrap/Image'
-import backgroundImg from '../images/umass_fall.jpeg'
-import logo from '../images/2002Cover.jpg'
+import Image from 'next/image';
+import backgroundImg from '../assets/umass_fall.jpeg'
+import logo from '../assets/2002Cover.jpg'
 
 /**
  *
@@ -15,8 +14,15 @@ import logo from '../images/2002Cover.jpg'
  */
 export default function Index () {
     return (
-        <div className="bg-image" style={{ background: `rgba(68, 47, 32, 0.842) url(${backgroundImg}) no-repeat fixed top` }}>
-            <div className>
+        <div class="outer">
+            <div className="bg-image">
+                <Image
+                    layout="fill"
+                    src={backgroundImg}
+                    alt={"hi"}
+                />
+            </div>
+            <div class="content">
                 <div className="about-bg">
                     <div className="bg-gradient-transparent">
                         <Navbar />
@@ -39,6 +45,5 @@ export default function Index () {
                 <Footer className='footer-wrapper' />
             </div>
         </div>
-        
     );
 }
