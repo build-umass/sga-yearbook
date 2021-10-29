@@ -19,7 +19,6 @@ export default function Index () {
                 <Image
                     layout="fill"
                     src={backgroundImg}
-                    alt={"hi"}
                 />
             </div>
             <div class="content">
@@ -42,7 +41,7 @@ export default function Index () {
                         <Button type="submit" href="https://adamlechowicz.github.io/redir" className="button" variant="light">Add to Cart</Button>
                     </div>
                 </div>
-                <Footer className='footer-wrapper' />
+                {/*<Footer className='footer-wrapper' />*/}
             </div>
         </div>
     );
