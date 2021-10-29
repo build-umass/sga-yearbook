@@ -3,8 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Button from 'react-bootstrap/Button';
-// import Img from 'react-optimized-image';
-import Image from 'next/Image'
+import Image from 'next/image';
 import backgroundImg from '../assets/umass_fall.jpeg'
 import logo from '../assets/2002Cover.jpg'
 
