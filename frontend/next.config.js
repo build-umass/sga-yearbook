@@ -1,10 +1,8 @@
-// const withPlugins = require('next-compose-plugins');
+/*
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 
-const withOptimizedImages = require("next-optimized-images");
-module.exports = withOptimizedImages({
-    images: {
-        disableStaticImages: true,
-    },
-    handleImages: ["jpeg", "png", "svg", "gif", "ico"],
-    optimizeImagesInDev: true,
-});
+module.exports = withPlugins([
+    optimizedImages,
+]);
+ */
