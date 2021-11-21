@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import About from './about';
+import History from './history';
 import Button from 'react-bootstrap/Button';
 import Image from 'next/image';
 import backgroundImg from '../assets/umass_fall.jpeg'
@@ -28,7 +28,7 @@ export default function Index () {
                         <Navbar />
                     </div>
                     <div>
-                        <About />
+                        <History />
                     </div>
                 </div>
                 <div className="details">
