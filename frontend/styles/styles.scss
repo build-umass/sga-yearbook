@@ -48,6 +48,8 @@ $red-gradient-transparent: #881c1c;
 }
 
 .details .big-img{
+    margin-top: 40px;
+    margin-bottom: 50px;
     max-width: 600px;
     min-width: 290px;
     max-height: 550px;
@@ -157,15 +159,15 @@ p {
 }
 
 .bg-image {
-    background-color: rgba(68, 47, 32, 0.842);
-    opacity: 0.5;
+    // background-color: rgb(68, 46, 46);
+    opacity: 0.95;
     background-repeat:  no-repeat;
-    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
     position: fixed;
+    filter: brightness(50%) sepia(40%) grayscale(30%) saturate(150%)
 }
 
 .content {
@@ -173,10 +175,12 @@ p {
   z-index: 1;
 }
 
-.outer {
-  position: relative;
-  width: 100%;
-}
+// .outer {
+//   position: relative;
+//   width: 100%;
+//   height: 100vh;
+// }
+
 .outer img {
   top: 0;
   left: 0;
@@ -186,6 +190,10 @@ p {
   bottom: 0;
   object-fit: cover;
   object-position: center;
+}
+
+.main-text {
+    color: #ccc
 }
 
  // might be useless
