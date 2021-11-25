@@ -19,49 +19,41 @@ export default function History() {
                     published a yearbook documenting their four yearsat the institution. This book was titled The Index.
                 </h5>
             </div>
-            <div>
-                <div>
+            <div className="history-row">
+                <div className="copy-img" style={{marginLeft: "15%"}}>
                     <Image src={first_cover} alt="The first edition of the Index (1870)"/>
                     <p>The first edition of the Index (1870)</p>
                 </div>
-                <div>
+                <figure className="quote" style={{marginRight: "15%"}}>
                     <blockquote>
-                    "At the end of each year, the students of Massachusetts
-                    Agricultural College and its successor institutions issued a
-                    yearbook known as the Index, documenting their time at school.
-                    For most of the first half century of the school, the Index was
-                    compiled by members of the junior class and contained
-                    “communications” from each class along with complete lists of
-                    students and student organizations, faculty, and officers of the
-                    college, along with occasionally humorous (and occasionally-
-                    humorous) vignettes of life on campus. The Index was only one of
-                    a trio of books that students kept during the nineteenth century to
-                    remember their times of campus, along with “M Books”
-                    (personalized scrapbooks) and class-issued photographic albums
-                    containing images of classmates, faculty, and campus."
+                    "At the end of each year, the students of Massachusetts Agricultural College and its successor institutions issued a
+                    yearbook known as the Index, documenting their time at school. For most of the first half century of the school, the Index was
+                    compiled by members of the junior class and contained “communications” from each class along with complete lists of
+                    students and student organizations, faculty, and officers of the college, along with occasionally humorous (and occasionally-
+                    humorous) vignettes of life on campus. The Index was only one of a trio of books that students kept during the nineteenth century to
+                    remember their times of campus, along with “M Books” (personalized scrapbooks) and class-issued photographic albums
+                    containing images of classmates, faculty, and campus." 
                     </blockquote>
-                </div>
+                </figure>
             </div>
-            <div>
-                <div>
+            <div className="history-row">
+                <figure className="quote">
+                    <blockquote>
+                        "In its earliest years, the Index had few illustrations. Before 1882, each number contained only a handful of comic drawings or line
+                        drawings of scenes on campus, and for several years after that date, the volumes were issued with only a single photographic
+                        frontispiece. By the turn of the century, however, photographs began to proliferate in the Index (eventually replacing the class
+                        photograph albums altogether). Beginning with images of the faculty, class portraits, and images of sports teams and campus
+                        views, the yearbook expanded by 1912 to include photographs of each member of the junior class, and eventually, the senior class
+                        as well. The Index ceased publication in 2005."
+                        <figcaption>
+                            <cite>&mdash; Special Collections and University Archives, W.E.B. Du Bois Library</cite>
+                        </figcaption>
+                    <Button type="submit" href="http://scua.library.umass.edu/youmass/doku.php?id=yearbooks" className="button" variant="light" style={{color: "maroon"}}>See More Editions!</Button>
+                    </blockquote>
+                </figure>
+                <div className="copy-img" style={{marginRight: "15%"}}>
                     <Image src={last_cover} alt="The last edition of the Index in recent memory (2005)"/>
                     <p>The last edition of the Index in recent memory (2005)</p>
-                </div>
-                <div>
-                    <blockquote>
-                        "In its earliest years, the Index had few illustrations. Before 1882,
-                        each number contained only a handful of comic drawings or line
-                        drawings of scenes on campus, and for several years after that
-                        date, the volumes were issued with only a single photographic
-                        frontispiece. By the turn of the century, however, photographs
-                        began to proliferate in the Index (eventually replacing the class
-                        photograph albums altogether). Beginning with images of the
-                        faculty, class portraits, and images of sports teams and campus
-                        views, the yearbook expanded by 1912 to include photographs of
-                        each member of the junior class, and eventually, the senior class
-                        as well. The Index ceased publication in 2005."
-                    <Button type="submit" href="http://scua.library.umass.edu/youmass/doku.php?id=yearbooks" className="button" variant="outline-light" style={{color: "maroon"}}>See More Editions!</Button>
-                    </blockquote>
                 </div>
             </div>
         </div>

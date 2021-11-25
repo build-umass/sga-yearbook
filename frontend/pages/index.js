@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import History from './history';
 import Button from 'react-bootstrap/Button';
 import Image from 'next/image';
-import backgroundImg from '../assets/umass_fall.jpeg'
+import backgroundImg from '../assets/umass_fall.jpeg';
 import logo from '../assets/2002Cover.jpg'
 
 /**
