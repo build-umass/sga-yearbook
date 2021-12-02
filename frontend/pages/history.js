@@ -21,7 +21,7 @@ export default function History() {
             </div>
             <br /><br /><br />
             <div className="history-row">
-                <div className="copy-img" style={{marginLeft: "15%", textAlign: "center"}}>
+                <div className="copy-img" style={{marginLeft: "15%"}}>
                     <Image src={first_cover} alt="The first edition of the Index (1870)"/>
                     <p style={{color: "whitesmoke"}}>The first edition of the Index (1870)</p>
                 </div>
