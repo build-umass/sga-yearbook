@@ -15,14 +15,14 @@ import logo from '../assets/2002Cover.jpg'
  */
 export default function Index () {
     return (
-        <div class="outer">
+        <div className="outer">
             <div className="bg-image">
                 <Image
                     layout="fill"
                     src={backgroundImg}
                 />
             </div>
-            <div class="content">
+            <div className="content">
                 <div className="about-bg">
                     <div className="bg-gradient-transparent">
                         <Navbar />
@@ -46,8 +46,8 @@ export default function Index () {
                         <Button type="submit" href="https://adamlechowicz.github.io/redir" className="button" variant="light" style={{color: "maroon"}}>Add to Cart</Button>
                     </div>
                 </div>
-                <Footer className='footer-wrapper' />
             </div>
+            <Footer className='footer-wrapper' />
         </div>
     );
 }

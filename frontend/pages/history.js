@@ -13,16 +13,17 @@ export default function History() {
         <div className="history-box">
             <div className="intro">
                 <h1>A Brief History of the Index</h1>
-                <br />
-                <h5 style={{}}>
+                <br /><br />
+                <h5>
                     For 135 of the 157 years that comprise the history of the University of Massachusetts, students
-                    published a yearbook documenting their four yearsat the institution. This book was titled The Index.
+                    published a yearbook documenting their four years at the institution. This book was titled The Index.
                 </h5>
             </div>
+            <br /><br /><br />
             <div className="history-row">
-                <div className="copy-img" style={{marginLeft: "15%"}}>
+                <div className="copy-img" style={{marginLeft: "15%", textAlign: "center"}}>
                     <Image src={first_cover} alt="The first edition of the Index (1870)"/>
-                    <p>The first edition of the Index (1870)</p>
+                    <p style={{color: "whitesmoke"}}>The first edition of the Index (1870)</p>
                 </div>
                 <figure className="quote" style={{marginRight: "15%"}}>
                     <blockquote>
@@ -37,7 +38,7 @@ export default function History() {
                 </figure>
             </div>
             <div className="history-row">
-                <figure className="quote">
+                <figure className="quote" style={{marginLeft: "15%"}}>
                     <blockquote>
                         "In its earliest years, the Index had few illustrations. Before 1882, each number contained only a handful of comic drawings or line
                         drawings of scenes on campus, and for several years after that date, the volumes were issued with only a single photographic
@@ -48,12 +49,12 @@ export default function History() {
                         <figcaption>
                             <cite>&mdash; Special Collections and University Archives, W.E.B. Du Bois Library</cite>
                         </figcaption>
-                    <Button type="submit" href="http://scua.library.umass.edu/youmass/doku.php?id=yearbooks" className="button" variant="light" style={{color: "maroon"}}>See More Editions!</Button>
+                    <Button type="submit" href="http://scua.library.umass.edu/youmass/doku.php?id=yearbooks" className="button" variant="secondary" style={{color: "white"}}>See More Editions!</Button>
                     </blockquote>
                 </figure>
                 <div className="copy-img" style={{marginRight: "15%"}}>
                     <Image src={last_cover} alt="The last edition of the Index in recent memory (2005)"/>
-                    <p>The last edition of the Index in recent memory (2005)</p>
+                    <p style={{color: "whitesmoke"}}>The last edition of the Index in recent memory (2005)</p>
                 </div>
             </div>
         </div>

@@ -194,7 +194,7 @@ $red-gradient-transparent: #881c1c;
 }
 
 .content-wrap {
-    padding-bottom: 10em;
+    padding-bottom: 10em
 }
 
 .footer {
@@ -275,11 +275,11 @@ $red-gradient-transparent: #881c1c;
 
 
 .quote {
-    margin: o;
-    background: rgb(216, 216, 216);
+    margin: 0;
+    background: whitesmoke;
     padding: 1em;
-    border-radius: 1em;
-    opacity: 80%;
+    border-radius: 0.5em;
+    opacity: 70%;
     margin: 0px 6%;
 }
 
@@ -296,6 +296,10 @@ $red-gradient-transparent: #881c1c;
     margin: 1em
 }
 
+.main-text {
+    color: white;
+}
+
 .history-row {
     display: flex;
     flex-wrap: wrap;
@@ -308,8 +312,9 @@ $red-gradient-transparent: #881c1c;
     flex: 1 1 160px;
 }
 
-
 .copy-img {
     max-width: 300px;
     filter: drop-shadow(8px 8px 10px rgb(53, 51, 51));
+    text-align: center;
 }
+
