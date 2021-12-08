@@ -32,6 +32,7 @@ export default function Index () {
                 </div>
                 <ProductPage />
             </div>
+            <Footer className='footer-wrapper' />
         </div>
     );
 }
