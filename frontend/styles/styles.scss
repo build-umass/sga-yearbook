@@ -70,7 +70,12 @@ $red-gradient-transparent: #881c1c;
     max-width: 500px;
     min-width: 290px;
     height: 66.5vh;
-    margin: 25px; //25px
+    background: gray;
+    opacity: 70%;
+    margin: 0;
+    background: whitesmoke;
+    padding: 1em;
+    border-radius: 0.5em;
 }
 .box .row{
     display: flex;
@@ -287,7 +292,7 @@ $red-gradient-transparent: #881c1c;
 .quote figcaption {
     // max-width: 60%;
     color: black;
-    // text-align: left; 
+    // text-align: left;
     // padding: 10px;
     // margin:0 auto;
     // margin-top: 10px;
@@ -297,7 +302,7 @@ $red-gradient-transparent: #881c1c;
 }
 
 .main-text {
-    color: white;
+    color: black;
 }
 
 .history-row {

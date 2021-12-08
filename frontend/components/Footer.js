@@ -15,7 +15,7 @@ export default function Footer() {
     <div className="footer">
       <Container className="padding3">
         <Row>
-          <Col sm={12} className="footer-col">
+          <Col md={3} sm={12}>
             <div>
               <Row>
                 <Col>
@@ -46,7 +46,7 @@ export default function Footer() {
                         <FontAwesomeIcon icon={faTwitter} className="icon" />
                     </a>
                     <a
-                        href="https://adamlechowicz.github.io/redir"
+                        href="https://www.umass.edu/sga/index_preorder/"
                         target="_blank"
                         className="white-link"
                         rel="noreferrer"
