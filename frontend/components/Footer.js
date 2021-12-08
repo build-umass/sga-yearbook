@@ -15,7 +15,7 @@ export default function Footer() {
     <div className="footer">
       <Container className="padding3">
         <Row>
-          <Col sm={12} className="footer-col">
+          <Col md={3} sm={12}>
             <div>
               <Row>
                 <Col>
