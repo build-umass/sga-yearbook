@@ -9,7 +9,7 @@ export default function MoreInfo() {
         <div className="more-text-box center-text">
           <p className="more-text">
             Physical copies of previous editions can be found at the 20th floor
-            of W.E.B.Du Bois Library. <br />
+            of W.E.B. Du Bois Library. <br />
             All digital copies of the Index are publically available online as
             well.
           </p>
