@@ -113,8 +113,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(17, 17, 17, 0.8);
-
+  background-color: #111;
   /* for sticky nav bar */
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -166,7 +165,7 @@ body {
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
-  border-radius: 9px;
+  // border-radius: 9px;
   color: #fff;
   background-color: $primary-color;
   transition: all 0.3s;
@@ -241,7 +240,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // margin-top: 7rem;
+  margin-top: 7rem;
 }
 
 .hero {
@@ -555,6 +554,43 @@ body {
 @media (max-width: 36em) {
   .hero {
     padding: 0 4rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .gallery-img {
+    height: 30rem;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  .logo:link {
+    font-size: 1.6rem;
+  }
+
+  .main-nav .main-nav-link:link {
+    font-size: 1rem;
+  }
+
+  .main-nav-list {
+    gap: 1rem;
+  }
+
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .main-nav-list {
+    gap: 0.8rem;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 0.5rem 1rem;
   }
 }
 
