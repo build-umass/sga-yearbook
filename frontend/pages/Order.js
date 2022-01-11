@@ -18,7 +18,7 @@ export default function Order() {
           </p>
           <ul>
             <li>
-              Your preorder will be reday for pickup on-campus starting late
+              Your preorder will be ready for pickup on-campus starting late
               April, 2022
             </li>
             <li>Domestic shipping begins in December-January</li>
@@ -36,7 +36,7 @@ export default function Order() {
               <a className="cta-link" href="mailto:umassindex.gmail.com">
                 Email
               </a>{" "}
-              us for any questions or concerns.
+              us for any questions or concerns
             </li>
           </ul>
         </div>

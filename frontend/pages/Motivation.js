@@ -34,10 +34,10 @@ export default function Motivation() {
           <p className="motivation-description">
             Yearbooks offer a unique medium of reminiscence that remains
             relevant. The last couple years have been a whirlwind &mdash; from
-            the pandemic itself to incredible movements for justice, sweeping
-            the country and uncertainty in all aspects of nearly everyone's
-            lives. During historic times like these, yearbooks offer the best
-            account of what it's like to be in our shoes as UMass students.
+            the pandemic itself to incredible movements for justice sweeping the
+            country and uncertainty in all aspects of nearly everyone's lives.
+            During historic times like these, yearbooks offer the best account
+            of what it's like to be in our shoes as UMass students.
           </p>
         </div>
         <div className="motivation-text-box">
