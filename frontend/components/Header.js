@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/dist/client/image";
+import logoPNG from "../public/indexLogoInline.png";
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
       <a className="logo" href="#">
         <Image
           className="logo-img"
-          src="/../public/indexLogoInline.png"
+          src={logoPNG}
           width="420rem"
           height="45rem"
         ></Image>
