@@ -29,6 +29,11 @@ export default function Gallery() {
 }
 
 const Container = () => {
+  /*
+    Unfortunately I could not figure out how to point images in index covers folder,
+    so the cover images are hosted on my discord channel. 
+    But all the images are included in index covers.
+  */
   return (
     <div className="gallery-roll-box">
       <figure className="gallery-item">

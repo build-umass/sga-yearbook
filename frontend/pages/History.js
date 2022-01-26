@@ -33,7 +33,7 @@ export default function History() {
           <span>Baseball Association (1900)</span>
         </div>
         <div className="history-text-box">
-          <h3 className="heading-tertiary">What is it about</h3>
+          <h3 className="heading-tertiary">How it evolved</h3>
           <p className="history-description">
             In its earliest years, the Index had few illustrations. Before 1882,
             each number contained only a handful of comic drawings of scenes on

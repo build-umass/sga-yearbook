@@ -1,10 +1,16 @@
 import React from "react";
+import Image from "next/dist/client/image";
 
 export default function Header() {
   return (
     <header className="header">
       <a className="logo" href="#">
-        The Index
+        <Image
+          className="logo-img"
+          src="/../public/indexLogoInline.png"
+          width="420rem"
+          height="45rem"
+        ></Image>
       </a>
       <nav className="main-nav">
         <ul className="main-nav-list">
