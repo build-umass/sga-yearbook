@@ -42,7 +42,7 @@ export default function Motivation() {
         </div>
         <div className="motivation-text-box">
           <p className="motivation-description">
-            We're so excited to begin taking preorders for the first yearbook at
+            We're so excited to begin taking orders for the first yearbook at
             UMass after a 16-year hiatus. The 2021-2022 Index will be a timeless
             keepsake, featuring pieces of UMass life that we all experienced
             together. For seniors, the yearbook also includes the graduating

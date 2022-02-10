@@ -5,23 +5,34 @@ export default function Order() {
     <section className="section-cta" id="cta">
       <div className="container">
         <span className="subheading">Get your yearbook</span>
-        <h2 className="heading-secondary">Preorder your 2022 yearbook</h2>
+        <h2 className="heading-secondary">Order your Class of 2022 yearbook</h2>
       </div>
 
       <div className="container">
         <div className="cta-text-box">
-          <h3 className="heading-tertiary">$20 for a limited time!</h3>
+          <h3 className="heading-tertiary">
+            Just $20 if you order before February 14th!
+          </h3>
           <p className="cta-description">
-            Preorder your 2022 UMass yearbook at the discounted price of $20 for
-            a limited time! <br /> Here's what you need to know about order and
-            shippment:
+            Order your Class of 2022 UMass yearbook at the discounted price of
+            $20 before February 14th! <br /> Here's what you need to know about
+            ordering:
           </p>
           <ul>
             <li>
-              Your preorder will be ready for pickup on-campus starting late
-              April, 2022
+              Your order will be ready for pickup on-campus in late April -
+              early May 2022, including at the{" "}
+              <a
+                className="cta-link"
+                href="https://www.umass.edu/commencement/"
+              >
+                Commencement Fair.
+              </a>
             </li>
-            <li>Domestic shipping begins in December-January</li>
+            <li>
+              A few dozen yearbooks will be leftover for purchase in-person in
+              May.
+            </li>
             <li>
               Please follow our socials at{" "}
               <a
@@ -30,13 +41,14 @@ export default function Order() {
               >
                 @umassindex
               </a>{" "}
-              on Instagram for updates!
+              for updates!
             </li>
             <li>
+              Email us at{" "}
               <a className="cta-link" href="mailto:umassindex.gmail.com">
-                Email
+                umassindex@gmail.com
               </a>{" "}
-              us for any questions or concerns
+              with any questions or concerns.
             </li>
           </ul>
         </div>
@@ -46,7 +58,7 @@ export default function Order() {
           rel="noreferrer noopener"
           target="_blank"
         >
-          PREORDER NOW!
+          ORDER NOW!
         </a>
       </div>
     </section>

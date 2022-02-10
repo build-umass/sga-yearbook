@@ -32,7 +32,7 @@ export default function Header() {
           </li>
           <li>
             <a className="main-nav-link nav-cta" href="#cta">
-              Preorder
+              Order
             </a>
           </li>
         </ul>
