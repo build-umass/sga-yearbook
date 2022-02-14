@@ -5,18 +5,19 @@ export default function Order() {
     <section className="section-cta" id="cta">
       <div className="container">
         <span className="subheading">Get your yearbook</span>
-        <h2 className="heading-secondary">Order your Class of 2022 yearbook</h2>
+        <h2 className="heading-secondary">
+          Order your Class of 2022 yearbook!
+        </h2>
       </div>
-
       <div className="container">
         <div className="cta-text-box">
           <h3 className="heading-tertiary">
-            Just $20 if you order before February 14th!
+            Our book availability is limited! Order <em>before March 15th</em>{" "}
+            to secure your spot.
           </h3>
           <p className="cta-description">
-            Order your Class of 2022 UMass yearbook at the discounted price of
-            $20 before February 14th! <br /> Here's what you need to know about
-            ordering:
+            Order your Class of 2022 hardcover yearbook for just $30! Here's
+            what you need to know about ordering:
           </p>
           <ul>
             <li>
