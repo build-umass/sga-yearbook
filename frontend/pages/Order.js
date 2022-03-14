@@ -5,15 +5,13 @@ export default function Order() {
     <section className="section-cta" id="cta">
       <div className="container">
         <span className="subheading">Get your yearbook</span>
-        <h2 className="heading-secondary">
-          Order your Class of 2022 yearbook!
-        </h2>
+        <h2 className="heading-secondary">Class of 2022 yearbook</h2>
       </div>
       <div className="container">
         <div className="cta-text-box">
           <h3 className="heading-tertiary">
-            Our book availability is limited! Order <em>before March 15th</em>{" "}
-            to secure your spot.
+            Order <em>before March 21st</em> to get your hands on a book in time
+            for Commencement!
           </h3>
           <p className="cta-description">
             Order your Class of 2022 hardcover yearbook for just $30! Here's
@@ -21,8 +19,8 @@ export default function Order() {
           </p>
           <ul>
             <li>
-              Your order will be ready for pickup on-campus in late April -
-              early May 2022, including at the{" "}
+              Your order today will be ready for pickup on-campus in May 2022,
+              including at the{" "}
               <a
                 className="cta-link"
                 href="https://www.umass.edu/commencement/"
@@ -31,8 +29,8 @@ export default function Order() {
               </a>
             </li>
             <li>
-              A few dozen yearbooks will be leftover for purchase in-person in
-              May.
+              We will also accept orders at the Commencement Fair, which will be
+              ready for local pickup or domestic shipping in June.
             </li>
             <li>
               Please follow our socials at{" "}
@@ -45,11 +43,12 @@ export default function Order() {
               for updates!
             </li>
             <li>
-              Email us at{" "}
+              If you would prefer to pay using a check, or you have any
+              questions or concerns, please email us at{" "}
               <a className="cta-link" href="mailto:umassindex.gmail.com">
                 umassindex@gmail.com
-              </a>{" "}
-              with any questions or concerns.
+              </a>
+              !
             </li>
           </ul>
         </div>
@@ -59,7 +58,7 @@ export default function Order() {
           rel="noreferrer noopener"
           target="_blank"
         >
-          ORDER NOW!
+          ORDER NOW !
         </a>
       </div>
     </section>
