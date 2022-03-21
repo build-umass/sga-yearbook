@@ -10,7 +10,7 @@ export default function Order() {
       <div className="container">
         <div className="cta-text-box">
           <h3 className="heading-tertiary">
-            Order <em>before March 21st</em> to get your hands on a book in time
+            Order <em>before April 7th</em> to get your hands on a book in time
             for Commencement!
           </h3>
           <p className="cta-description">
